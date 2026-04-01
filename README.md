@@ -8,8 +8,8 @@ n particles are positioned randomly and with a random initial velocity in a 2D r
 
 # To compile and plot
 
-In bash shell: F -o many_bodies rk4.f90 mcf_tipos.f90 many_bodies.f90
-In gnuplot: plot '3body.dat' u 2:3 w p
+1. In bash shell: F -o many_bodies rk4.f90 mcf_tipos.f90 many_bodies.f90
+2. In gnuplot: plot '3body.dat' u 2:3 w p
 
 # Modules
 
